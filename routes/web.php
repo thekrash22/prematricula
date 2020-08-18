@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::resource('personas', 'PersonasController');
+
+Route::resource('estudiantes', 'EstudiantesController');
+
+Route::resource('acudientes', 'AcudientesController');
+
+Route::resource('estudianteAcuentes', 'EstudianteAcuenteController');
