@@ -15,14 +15,14 @@ class CreateEstudiantesTable extends Migration
     {
         Schema::create('estudiantes', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('persona_id')->unsigned();
+            $table->integer('personas_id')->unsigned();
             $table->string('codigo');
             $table->string('grado');
             $table->string('eps');
             $table->string('cupo');
             $table->timestamps();
             $table->softDeletes();
-            $table->foreign('persona_id')->references('id')->on('persona');
+            $table->foreign('personas_id')->references('id')->on('personas');
         });
     }
 

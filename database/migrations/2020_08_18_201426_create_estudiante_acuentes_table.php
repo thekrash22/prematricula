@@ -15,12 +15,12 @@ class CreateEstudianteAcuentesTable extends Migration
     {
         Schema::create('estudiante_acuentes', function (Blueprint $table) {
             $table->increments('id');
-            $table->interger('estudiante_id')->unsigned();
-            $table->interger('acudiente_id')->unsigned();
+            $table->integer('estudiantes_id')->unsigned();
+            $table->integer('acudientes_id')->unsigned();
             $table->timestamps();
             $table->softDeletes();
-            $table->foreign('estudiante_id')->references('id')->on('estudiantes');
-            $table->foreign('acudiente_id')->references('id')->on('acudientes');
+            $table->foreign('estudiantes_id')->references('id')->on('estudiantes');
+            $table->foreign('acudientes_id')->references('id')->on('acudientes');
         });
     }
 

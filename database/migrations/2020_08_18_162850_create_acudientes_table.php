@@ -15,14 +15,14 @@ class CreateAcudientesTable extends Migration
     {
         Schema::create('acudientes', function (Blueprint $table) {
             $table->increments('id');
-            $table->interger('persona_id')->unsigned();
+            $table->integer('personas_id')->unsigned();
             $table->string('direccion');
             $table->string('barrio');
             $table->string('profesion');
             $table->string('correo');
             $table->timestamps();
             $table->softDeletes();
-            $table->foreign('persona_id')->references('id')->on('persona');
+            $table->foreign('personas_id')->references('id')->on('personas');
         });
     }
 
