@@ -18,11 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//Route::get('/formulario', 'FormularioController@index');
+Route::get('/formulario', 'FormularioController@index');
 
-Route::get('formulario', function () {
-    return 'Hello World';
-});
+
 
 Route::resource('personas', 'PersonasController');
 

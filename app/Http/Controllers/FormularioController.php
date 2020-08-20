@@ -14,8 +14,8 @@ class FormularioController extends Controller
   
     public function index()
     {
-        echo "hola";
-        //return view('formularios\formulario');
+    
+        return view('formulario\formulario');
     }
 
     /**
