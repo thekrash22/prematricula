@@ -4,20 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FormularioController extends Controller
+class EstudianteListadoController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-  
-    public function index()
+    
+     public function index()
     {
-            return view('formulario\formulario');
+            return view('listado\listadoEstu');
     }
-
-   
 
     /**
      * Show the form for creating a new resource.

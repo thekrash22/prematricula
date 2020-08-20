@@ -196,7 +196,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Confirmar Datos</a>
-                            <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Editar</a>
+                           
                         </div>
                       
                     </div>

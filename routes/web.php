@@ -18,8 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/formulario', 'FormularioController@index');
 
+Route::get('/listado', 'EstudianteListadoController@index');
 
 
 Route::resource('personas', 'PersonasController');
