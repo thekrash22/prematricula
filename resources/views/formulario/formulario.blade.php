@@ -13,7 +13,8 @@
   <body>
         <br>
         <div class="row">
-            <div class="col-md-2"><img src="..." alt="..." class="img-rounded"></div>
+            
+            <div class="col-md-2"><!--escudi del colegio--></div>
             <div class="col-md-8"><h1><p class="text-center "> PREMATRICULA VIRTUAL ESTUDIANTES ANTIGUAS PARA EL AÑO 2021</p></h1></div>
             <div class="col-md-2"></div>
         </div>
@@ -24,7 +25,7 @@
                 <p>Querido padres de familia:</p>
                 <P>El 11 de septiembre se realizará la prematricula virtual de las estudiantes antiguas que reservan su cupo para el año 2021:</P>
             </div>
-            <div class="col-md-2"></div>    
+            <div class="col-md-4"></div>    
         </div>
 
         <div class="row">
@@ -95,15 +96,16 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-10"> 
+                        <div class="col-md-8"> 
                             <p class="text-justify"> Recuerde, si cambiaste de Eps este año debes hacer una copia escaneada del documento que registre esta modificacion al correo: admisiones@institutolamilagrosa.com</p>
                             <p class="text-justify"> Esta es una obligacion de los padres de familia según el codigo Infantil y Adolescencia</p>
                         </div>
-                        <div class="col-md-2"></div> 
+                        <div class="col-md-4"></div> 
                     </div>
 
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
                            <p class="text-center"><b>II. DATOS DE CONTACTO ACUDIENTE</b></p>
                         </div>
                         
@@ -191,6 +193,14 @@
                     </div>
                     <br>
 
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Confirmar Datos</a>
+                            <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Editar</a>
+                        </div>
+                      
+                    </div>
+                    <br>
 
                 </form>
 
